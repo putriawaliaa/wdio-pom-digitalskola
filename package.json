@@ -1,0 +1,11 @@
+{
+  "name": "wdio-pom-digitalskola",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^9.0.6",
+    "@wdio/local-runner": "^9.0.7"
+  },
+  "scripts": {
+  "wdio": "wdio run ./wdio.conf.js"
+  }
+}
